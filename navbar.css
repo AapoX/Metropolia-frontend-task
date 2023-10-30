@@ -1,5 +1,5 @@
 nav {
-    background-color: #DFF1F8;
+    background-color: #2C73D2;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -9,13 +9,13 @@ nav {
 
 .home-logo {
     text-decoration: none;
-    color: #845EC2;
+    color: #fff;
     font-size: 20px;
     padding: 10px;
 }
 
 .nav-links a {
-    color: #4B4453;
+    color: #fff;
     text-decoration: none;
     padding: 10px;
     margin: 0 20px;

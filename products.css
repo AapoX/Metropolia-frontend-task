@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.pre-products {
+  text-align: center;
+  height: auto;
+  font-family: 'Open Sans',serif;
+}
+
+#logo {
+  max-width: 95%;
+  align-items: center;
+}
+
+#product-intro {
+  font-size: 25px;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.card {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background-color: #fcf5ea;
+}
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.card-text {
+  
+  font-size: 15px;
+  max-width: 23w;
+  overflow-wrap: break-word;
+  font-weight: 300;
+  line-height: 1.6;
+}
