@@ -1,0 +1,43 @@
+nav {
+    background-color: #DFF1F8;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.home-logo {
+    text-decoration: none;
+    color: #845EC2;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav-links a {
+    color: #4B4453;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.nav-links a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .company-name {
+        font-size: 18px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links a {
+        padding: 5px 10px;
+        margin: 5px 0;
+    }
+}
